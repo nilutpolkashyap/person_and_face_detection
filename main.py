@@ -44,3 +44,5 @@ while cv2.waitKey(1) < 0:
             
             cv2.putText(frame,'PERSON',(xmin2, (ymin2-10)),font, 0.4,(0, 255, 255),1,cv2.LINE_AA) 
     cv2.imshow('OpenVINO face detection', frame)
+
+    
