@@ -24,6 +24,7 @@ while cv2.waitKey(1) < 0:
         xmax = int(detection[5] * frame.shape[1])
         ymax = int(detection[6] * frame.shape[0])
 
+        
         if confidence > 0.5:
             cv2.rectangle(frame, (xmin, ymin), (xmax, ymax), color=(0, 255, 0))
             cv2.putText(frame,'FACE',(xmin, (ymin-10)),font, 0.4,(0, 255, 255),1,cv2.LINE_AA) 
