@@ -33,10 +33,31 @@ Final youtube Video Link - https://youtu.be/QiGPc9fVRfk
 
     > deactivate
     
-**NOTE** - *I have created  a batch file named "openvinoenv.bat" to run the following steps in one singe line.*
+**NOTE** - *I have created  a batch file named "openvinoenv.bat" to run the following steps in one singe line*
 
     > call "openvinoenv\Scripts\activate"call "C:\Program Files (x86)\IntelSWTools\openvino_2020.1.033\bin\setupvars.bat"
 
 With a single line, the python virtual environment for OpenVINO toolkit can be created and the OpenVINO environment variables can be initialized.
 
     > openvinoenv.bat
+
+**Pre-trained Models**
+
+It uses the pre-trained models from the Intel OpenVino pre-trained models.
+
+The following pre-trained models were downloaded using the model downloader
+
+    > python "C:\Program Files (x86)\IntelSWTools\openvino\deployment_tools\open_model_zoo\tools\downloader\downloader.py"
+
+    1. face-detection-adas-0001 - https://docs.openvinotoolkit.org/latest/omz_models_intel_face_detection_adas_0001_description_face_detection_adas_0001.html
+    2. person-detection-retail-0013 - https://docs.openvinotoolkit.org/latest/omz_models_intel_person_detection_retail_0013_description_person_detection_retail_0013.html
+
+Demonstration Videos used from the sample videos of intel-iot-devkit Github Repository. - https://github.com/intel-iot-devkit/sample-videos
+
+**System specifications used**
+
+- Processor - Intel Core i7 9750H
+
+- Ram - 16 GB
+
+- OS - Windows 10 64 bit 
