@@ -1,3 +1,5 @@
+# Person and Face Detection using Intel OpenVINO toolkit
+
 **person_and_face_detection**
 Project for Person and Face Detection for public Security using the Pre-trained models from Intel Distribution of OpenVINO toolkit.
 Final youtube Video Link - https://youtu.be/QiGPc9fVRfk
@@ -61,3 +63,5 @@ Demonstration Videos used from the sample videos of intel-iot-devkit Github Repo
 - Ram - 16 GB
 
 - OS - Windows 10 64 bit 
+
+Link to project page at Hackster.io - https://www.hackster.io/nilutpolkashyap/person-and-face-detection-using-intel-openvino-toolkit-24250c
