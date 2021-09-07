@@ -4,6 +4,8 @@
 Project for Person and Face Detection for public Security using the Pre-trained models from Intel Distribution of OpenVINO toolkit.
 Final youtube Video Link - https://youtu.be/QiGPc9fVRfk
 
+<img src="https://raw.githubusercontent.com/nilutpolkashyap/person_and_face_detection/master/cover_image.jpg" alt=“Girl in a jacket” style=“width:500px;height:600px;”>
+
 **Steps**
 1. Download and install Anaconda Distribution of Python
 2. Install all the dependencies
