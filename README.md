@@ -7,7 +7,7 @@ Final youtube Video Link - https://youtu.be/QiGPc9fVRfk
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/nilutpolkashyap/person_and_face_detection/master/cover_image.jpg" alt=“project” width="30%"/>
+<img src="https://raw.githubusercontent.com/nilutpolkashyap/person_and_face_detection/master/cover_image.jpg" alt=“project” width="70%"/>
 
 </div>
     
